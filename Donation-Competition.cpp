@@ -192,7 +192,7 @@ int main()
     
     outputFile.close(); // File closes
 
-    return 0; // Program endsDonationd
+    return 0; // Program ends
     
 }
 
