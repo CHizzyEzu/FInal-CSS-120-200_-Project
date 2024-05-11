@@ -10,6 +10,8 @@ using namespace std;
 
 // Global variables and strings
 const int SIZE = 10;
+int arr1[10];
+int arr2[10];
 int array[10];
 
 // Function fills array with user input data
@@ -178,8 +180,8 @@ int main()
     Comparison(arr1, arr2, SIZE, company1_name, company2_name);
 
 // Prints the array elements to the file
-    outputFile << "Donations of " << company1_name << ": $" << Donation(arr1, SIZE, format, cout) << endl;
-    outputFile << "Donations of " << company2_name << ": $" << Donation(arr2, SIZE, format, cout) << endl;
+    outputFile << "Donations of " << company1_name << ": $" << Donation(arr1, SIZE, format, outputFile) << endl;
+    outputFile << "Donations of " << company2_name << ": $" << Donation(arr2, SIZE, format, outputFile) << endl;
 
 // Prints the arrays total values to the file
     outputFile << "Total donations of " << company1_name << ": $" << Total(arr1, SIZE) << " Million " << endl;
@@ -190,7 +192,7 @@ int main()
     
     outputFile.close(); // File closes
 
-    return 0; // Program ends
+    return 0; // Program endsDonationd
     
 }
 
