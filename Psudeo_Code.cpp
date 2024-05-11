@@ -1,4 +1,4 @@
-// Header information
+// Libraries
 
 // #include <iostream>
 // #include <string>
@@ -8,61 +8,63 @@
 
 // Declare Global variable
 
-// Const int 10
+// const int 10
+// array int array 10
 
-// First array arr1[10]
-// Second array arr2[10]
-
-// First fillArray function
+// Create a void fillArray function (Takes user input)
 // {
         // For loop 
         // {
                 // Iterate input statemnet 10 times
         // }
 
+        // Use a while loop for input validation (integers only)
 
 // }
 
-// Second fillArray2 function 
-// {
-        // Same logic as first for loop but assigned to a second array
-// }
-
-// Create Total function 1
+// Create int Total function (that can have both arrays used as an argument)
 // {
         // Adds the sum of the elements 
 // }
 
-// Create format function
+// Create void format function
 // {
         // formatting algorithim for both arrays
 // }
 
-// Create Second Total function for other array
+// Create second string format function
 // {
-        // Same logic as first total function
+        // Make the function a string so it can be written to a file
 // }
 
-// Create if/else conditional statement function
+
+// Create a void comparison function
 // {
         // compares the sum1 to sum 2 and outputs the highest sum
 // }
 
+// Create a second string comparison function
+// {
+        // return a string variable to the function and write the result to an output file
+// }
 
 // Create main function
 // {
-        // Prompt user to write the name of company 1 and two
+        // Start and open the file (include file open validation)
+
+        // Prompt user to write the name of company 1 and 2
+        // Assign the data to a string variable
 
         // Initialize relevant variables
 
-        //Start file here (Include input validation)
-
-        // Create a while loop that eliminates characters in user input
-
         // Request user input
+
+        // Output user input to terminal and to the file
 
         // Call functions to main
 
-        // end code here
+        // Use proper formatting of the program output
+
+        // end code 
 
 // }
